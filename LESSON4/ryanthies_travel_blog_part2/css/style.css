@@ -1,0 +1,266 @@
+/* GLOBAL */
+* {
+	box-sizing: border-box;
+	/*border: 1px solid red !important;*/
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	color: #D2D2D2;
+}
+
+a {
+	color: #F9D483;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+/* SITE */
+.site {
+	width: 960px;
+	/* How to center something */
+	margin: 0 auto;
+}
+
+
+/* HEADER */
+header.north {
+	margin: 55px 0 55px 0;
+}
+
+header.north h1 {
+	font-size: 50px;
+	margin: 0 0 10px 0;
+	float: left;
+}
+
+header.north h1 a {
+	text-decoration: none;
+}
+
+header.north h1 a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+
+header.north h2 {
+	color: #8B8B8B;
+	font-size: 26px;
+	margin: 21px 0 20px 20px;
+	float: left;
+}
+
+header.north nav {
+	width: 100%;
+	text-align: center;
+	margin: 0;
+	clear: both;
+}
+
+header.north nav a {
+	color: #FFFFFF;
+	background-color: #8B8B8B;
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 34px;
+	float: left;
+	padding: 18px 53px;
+	border-right: 1px solid #FFFFFF;
+}
+
+header.north nav a:hover {
+	color: #000000;
+}
+
+
+/* POST */
+.article-col {
+	width: 65%;
+	float: left;
+}
+
+article.post {
+	margin: 0 0 25px 0;
+	padding: 0 0 25px 0;
+	border-bottom: 1px solid #D2D2D2;
+}
+
+article.post h3,
+article.post h2 {
+	font-size: 26px;
+}
+
+article.post h3 {
+	margin: 0 0 10px 0;
+}
+
+article.post h2 {
+	/* Why this doesn't work.
+	color: #000000;
+	*/
+	margin: 0 0 20px 0;
+}
+
+article.post h2 a {
+	color: #000000;
+	text-decoration: none;
+}
+
+article.post h2 a:hover {
+	color: #F9D483;
+}
+
+article.post img {
+	max-width: 100%;
+}
+
+article.post p {
+	color: #8B8B8B;
+	font-size: 16px;
+	line-height: 26px;
+}
+
+article.post h4 {
+	padding: 10px 0;
+	text-align: right;
+	font-weight: 700;
+}
+
+article.post h4 a {
+	text-decoration: none;
+}
+
+article.post h4 a:hover {
+	color: #000000;
+}
+
+article p::first-letter {
+	float: left;
+	color: #8B8B8B;
+	font-size: 80px;
+	line-height: 50px;
+	margin-top: 12px;
+	margin-right: 8px;
+}
+
+.post p {
+	margin-top: 20px;
+}
+
+
+/*SIDEBAR*/
+.sidebar-col {
+	width: 30%;
+	float: right;
+	margin: 70px 0 0 0;
+}
+
+.about_us {
+	margin: 0 0 25px 0;
+	padding: 0 0 25px 0;
+	border-bottom: 1px solid #D2D2D2;
+}
+
+.about_us h5 {
+	color: #8B8B8B;
+	padding: 10px 0;
+	font-weight: 700;
+}
+
+.about_us p {
+	color: #8B8B8B;
+	font-size: 16px;
+	line-height: 26px;
+}
+
+.about_us h4 {
+	padding: 10px 0;
+	text-align: right;
+	font-weight: 700;
+}
+
+.about_us h4 a {
+	text-decoration: none;
+}
+
+.about_us h4 a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+
+.placeholder_img {
+	margin: 0 0 25px 0;
+	padding: 0 0 25px 0;
+	border-bottom: 1px solid #D2D2D2;
+}
+
+.placeholder_img img {
+	width: 270px; 
+	height: 225px;
+	margin-left: 9px;
+}
+
+.popular_posts h5 {
+	color: #8B8B8B;
+	padding: 10px 0;
+	font-weight: 700;
+}
+
+.popular_posts a {
+	color: #F9D483;
+	text-decoration: none;
+	line-height: 28px;
+}
+
+.list_style {
+	margin-left: 36px;
+	color: #8B8B8B;
+}
+
+.popular_posts a:hover {
+	color: #000000;
+}
+
+
+/* FOOTER */
+footer.south {
+	padding: 25px 0;
+	clear: both;
+}
+
+footer.south nav {
+	margin: 0 0 10px 0;
+}
+
+footer.south nav a {
+	color: #F9D483;
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 16px;
+	padding: 0 5px;
+	border-left: 1px solid #D2D2D2;
+	/* Why this? */
+	border-right: 1px solid transparent;
+	margin: 0;
+}
+
+footer.south nav a:hover {
+	color: #000000;
+}
+
+footer.south nav a:first-child {
+	padding-left: 0;
+	border-left: 0;
+}
+
+footer.south p.copyright {
+	font-size: 14px;
+	line-height: 14px;
+}
+

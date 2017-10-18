@@ -1,0 +1,332 @@
+/* ==========================================================================
+   Global Overrides
+  ========================================================================== */
+
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+
+
+
+/* ==========================================================================
+   Author's custom styles
+  ========================================================================== */
+
+/* 
+    SITE COLORS:
+
+    White - #FFFFFF
+    Light Grey - #D7E0DB
+    Dark Grey - #3B393A
+    Grey/Black(text color) - #080808
+    Yellow - #FAD735
+    Red - #E9403D
+*/
+
+
+
+
+/* Text Styles
+   ================================================================ */
+
+h1 a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: Merriweather, serif;
+  font-weight: 700;
+}
+
+h1 a:hover {
+  color: #FAD735;
+  text-decoration: underline;
+  /*text-shadow:
+    2px 2px #3B393A,
+    2px -2px #3B393A,
+    -2px 2px #3B393A,
+    -2px -2px #3B393A;*/
+}
+
+h2 {
+  font-family: "Source Sans Pro", serif;
+  font-weight: 700;
+  font-size: 28px;
+  margin: 0;
+}
+
+.banner p,
+.boxes .box p {
+  font-family: "Source Sans Pro", serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.boxes .box h3 {
+  font-family: Merriweather, serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.boxes .box p,
+.blurb p {
+  margin-bottom: 34px;
+}
+
+h4 {
+  font-family: "Source Sans Pro", serif;
+  font-weight: 400;
+  font-size: 24px;
+  margin: 14px 0 0 0;
+}
+
+
+
+
+/* Header
+   ================================================================ */
+
+.site-nav {
+  /*fixed header*/
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  /*fixed header*/
+  background: #3B393A;
+  border-bottom: 4px solid #FAD735;
+}
+
+.site-nav ul {
+  margin: 0;
+}
+
+header h1 {
+  margin: 26px 0 0 48px;
+  float: left;
+}
+
+.site-nav li {
+  float: right;
+  display: inline-block;
+}
+
+.site-nav li:first-child {
+  margin-right: 20px;
+}
+
+.site-nav li a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.main-nav-link {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: Oswald, sans-serif;
+  font-weight: 700;
+  padding: 32px 28px;
+}
+
+.main-nav-link a:hover {
+  color: #FAD735;
+  /*background: rgba(255, 255, 255, 0.3);
+  padding: 32px 28px;
+  line-height: 50px;*/
+  text-decoration: underline;
+}
+
+.secondary-nav-link {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  padding: 35px 28px;
+}
+
+.secondary-nav-link a:hover {
+  color: #FAD735;
+  /*background: rgba(255, 255, 255, 0.3);
+  padding: 35px 28px;*/
+  text-decoration: underline;
+}
+
+.site-nav .active-page {
+  color: #FAD735; 
+  text-decoration: underline;
+}
+
+
+
+
+/* Body
+   ================================================================ */
+
+.tagline {
+  background: #D7E0DB;
+  font-family: Merriweather, serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 24px;
+  text-align: center;
+  padding: 20px 0;
+  margin: 94px 0 0 0;
+}
+
+.banner {
+background-image: url('../assets/coworking.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-position:center center;
+height: 460px;
+position: relative;
+}
+
+.blurb {
+  background: rgba(255, 255, 255, .7);
+  height: 300px;
+  width: 520px;
+  padding: 42px;
+  border: 2px solid #3B393A;
+  margin-top: 7%;
+  margin-left: 54%;
+  position: absolute;
+}
+
+.boxes .box {
+  width: 33%;
+  margin: 72px 0 72px 0;
+  border-right: 1px solid #D7E0DB;
+  padding: 0 56px 20px 56px;
+  float: left;
+  clear: right;
+}
+
+.boxes .box:last-child {
+  border: none;
+}
+
+
+
+
+/* Developers.html
+   ================================================================ */
+
+.users {
+  background: #D7E0DB;
+  margin: 94px 0 0 0;
+}
+
+.card-container {
+  padding: 12px;
+}
+
+.card .profile-image span {
+  color: #CCCCCC;
+  font-family: "Source Sans Pro", serif;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.card .card-container p {
+  display: inline-block;
+  color: #FFFFFF;
+  background: #3B393A;
+  font-family: "Source Sans Pro", serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 30px;
+  padding: 4px 10px;
+}
+
+.card .profile-image {
+  background: #EEEEEE;
+  text-align: center;
+  padding-top: 42%;
+  width: 270px;
+  height: 260px;
+}
+
+.users .card {
+  background: #FFFFFF;
+  width: 23%;
+  margin: 12px;
+  padding: 0;
+  float: left;
+  clear: right;
+}
+
+
+
+
+/* Footer
+   ================================================================ */
+
+footer {
+  color: #FFFFFF;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  background: #3B393A;
+  padding: 18px 0 18px 48px;
+}
+
+
+
+
+/* Buttons
+   ================================================================ */
+
+.primary-button {
+  color: #FFFFFF;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: Oswald, sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  background: #E9403D;
+  border-radius: 6px;
+  border-bottom: 4px solid #c12421;
+  text-align: center;
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.primary-button:hover {
+  color: #ea918f;
+  background: #c12421;
+}
+
+.secondary-button {
+  color: #080808;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: Oswald, sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  background: #D7E0DB;
+  border-radius: 6px;
+  border-bottom: 4px solid #c4cac7;
+  text-align: center;
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.secondary-button:hover {
+  color: #989898;
+  background: #c4cac7;
+}
+
+
+

@@ -1,0 +1,134 @@
+body {
+	background-color: #F4F4F4;
+	font-family: 'Roboto', sans-serif;
+	align-content: center;
+}
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	font-size: 40px;
+	text-align: center;
+	margin: 60px 0;
+}
+
+
+/* NAVIGATION LINKS */
+
+nav {
+	text-align: center;
+}
+
+nav ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 20px 20px;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+nav .current {
+	color: #01B3E4;
+	font-weight: 900;
+}
+
+nav a {
+	color: #CCCCCC;
+	text-decoration: none;
+	display: inline-block;
+}
+
+nav a:hover {
+	color: #05003C;
+}
+
+/* ------------------------ */
+
+
+
+/* ABOUT PAGE */
+
+.about_info {
+	display: inline-block;
+	margin: auto;
+}
+
+.about_copy {
+	max-width: 400px;
+	display: inline-block;
+	line-height: 32px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	color: #05003C;
+	font-size: 22px;
+	margin: 10px 80px 10px 80px;
+}
+
+.about_image {
+	margin: 0 0 0 280px;
+	max-width: 300px;
+	display: inline-block;
+}
+/* ------------------------ */
+
+
+/* WORK PAGE */
+
+.images {
+	margin: auto;
+}
+
+.work_images {
+	display: inline-block;
+	max-width: 380px;
+	padding: 10px;
+}
+
+/* ------------------------ */
+
+
+/* EXPERIENCE PAGE */
+
+h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	color: #05003C;
+	font-size: 22px;
+}
+
+h4 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	color: #01B3E4;
+	font-size: 18px;
+}
+
+.card p {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	color: #05003C;
+	font-size: 12px;
+}
+
+.card {
+	display: inline-block;
+	background-color: #FFFFFF;
+	width: 180px;
+	height: 180px;
+	padding: 40px;
+	margin: 12px;
+}
+
+.experience-cards {
+	position: center;
+}
+
+ul {
+	list-style: none;
+}
+
+/* ------------------------ */
+
+
+
+
